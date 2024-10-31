@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: green;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    box-shadow: none;
+    min-height: 100vh;
+    background-color: red;
+}
+
+.head {
+    padding-left: 30px;
+}
+
+.resume-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: indianred;
+}
+
+.main-content {
+    background-color: #e4e1fb;
+    margin: 10px 20px 30px 40px;
+    margin: 1px;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #01012f;
+    color: #a4c0fc;
+    margin: 1px;
+    padding: 5px;
+}
+
+.about-user {
+    padding: 25px;
+}
+
+.position {
+    font-family: Vivaldi;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.user-name {
+    font-family: Old English Text MT;
+    font-size: 35px;
+}
+
+.dates {
+    font-family: Arial;
+    color: blue;
+    padding-left: 20px;
+}
+
+.li-python {
+    font-family: Vivaldi;
+    color: orange;
+}
+
+.sert {
+    color: red;
+}
+
+.photo {
+    width: 250px;
+    border: solid 2px grey;
+    border-radius: 45px 5px;
+}
+
+.cont, .tel-email {
+    font-family: Vivaldi;
+    color: white;
+}
+
+.sidebar-card {
+    margin: 10px 10px;
+}
+
+h6, h5, h4 {
+    margin: 10px 0px;
+}
+
+.sidebar-btn {
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+}
